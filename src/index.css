@@ -1,3 +1,13 @@
+:root{
+  /* colors */
+
+  /* fonts */
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,7 +15,15 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+.container{
+  margin: 0 12% 0 12%;
+}
+.banner{
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  grid-gap:12px;
+}
+.ghibli_logo {
+  width: 200px;
+}

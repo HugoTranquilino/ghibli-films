@@ -1,0 +1,33 @@
+.films__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.films__card {
+    display: grid;
+    position: relative;
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 2%;
+}
+.films__card-image {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+}
+.card__body{
+    font-size: var(--font-size-md);
+    margin: 0 14px 10px 14px;
+}
+.card__body-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+}
+.card__body_description{
+
+}
+.card__body_description-date{
+    text-align: end;
+}
+.card__body_description-description{
+
+}

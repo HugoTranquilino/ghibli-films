@@ -6,13 +6,10 @@ import { Cards } from '../components/Cards'
 function AppUI() {
     return(
         <React.Fragment>
-            <img 
-                className="ghibli_logo"
-                src={logo} 
-                alt="ghibli films"
-            />
-            <Search />
-            <h1> hello world</h1>
+            <header className="banner">
+                <img className="ghibli_logo" src={logo} alt="ghibli films" />
+                <Search />
+            </header>
             <Cards/>
         </React.Fragment>
     );
