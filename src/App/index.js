@@ -1,9 +1,12 @@
 import React from "react";
+import { FilmsProvider } from "../components/FilmsContext";
 import { AppUI } from "./AppUI";
 
 function App() {
     return(
-        <AppUI />
+        <FilmsProvider>
+            <AppUI />
+        </FilmsProvider>
     );
 }
 
