@@ -1,6 +1,6 @@
 .films__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .films__card {
     display: grid;
@@ -10,8 +10,9 @@
     margin: 2%;
 }
 .films__card-image {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    /* border-top-left-radius: 12px; */
+    /* border-top-right-radius: 12px; */
+    border-radius: 12px;
     width: 100%;
 }
 .card__body{
