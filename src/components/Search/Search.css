@@ -1,9 +1,15 @@
-.search{
-    border: 1px solid;
-    border-radius: 8px;
-    font-size: var(--font-size-lg);
-    height: 18px;
-    margin-bottom: 12px;
-    padding: 5px 8px;
-    width: 100%;
-  }
+.search {
+  border: 1px solid;
+  border-radius: 8px;
+  color: white;
+  font-size: var(--font-size-lg);
+  height: 18px;
+  margin-bottom: 12px;
+  padding: 5px 8px;
+  outline: none;
+  width: 100%;
+  background-color: #ffffff17;
+}
+::placeholder{
+  color: white;
+}
