@@ -16,7 +16,6 @@ function GhibliDetails(props) {
             setFilmsDetail(ghibli_films)
         } catch (error) {
             console.log(error)
-            console.log('fallo la carga')
         }
     }
 
@@ -31,17 +30,22 @@ function GhibliDetails(props) {
                 <h1 className="details__banner-title">{filmsDetail.title}</h1>
             </section>
             
-            <section className="container_details">
+            <section className="section-info">
                 <h2 className="details-age">Año de lanzamiento: {filmsDetail.release_date}</h2>
-                <div className="details_">
-                    <h3 className="details_subtitle">Director: {filmsDetail.director}</h3>
-                    <h3 className="details_subtitle">Productor: {filmsDetail.producer}</h3>
-                </div>
-                <p className="description">{filmsDetail.description}</p>
-            </section>
 
-            <section className="container__people">
-                {/* <p className="people_name">{filmsPeople.name}</p> */}
+                <section className="container__info">
+                    <section className="container__info-description">
+                        <p className="description">{filmsDetail.description}</p>
+                    </section>
+                    <section className="container__info-film">
+                        <h3 className="details_subtitle">Director: {filmsDetail.director}</h3>
+                        <h3 className="details_subtitle">Productor: {filmsDetail.producer}</h3>
+                    </section>
+                </section>
+
+                <section className="container__people">
+                    {/* <p className="people_name">{filmsPeople.name}</p> */}
+                </section>
             </section>
         </section>
     );

@@ -21,29 +21,11 @@ function FilmsProvider(props) {
         })
     }
 
-    
-
     const ghibli_films = async (ghibli_api) => {
         try {
             const films = await fetch(`${ghibli_api}films/`)
             const ghibli_films = await films.json()
-            
-            // const idFilms = await fetch(`${ghibli_api}films/`)
-            // const idFilms = await fetch(`${ghibli_films[2].url}`)
 
-            // const responseDetails = await idFilms.json();
-
-            // const people = responseDetails.people;
-            
-            // console.log(responseDetails)
-            // for (let r = 0; r < people.length; r++) {
-            
-                // const filmsPeople = await fetch(`${people[0]}`)
-                // const data = await filmsPeople.json();
-                // setFilmsPeople(data)
-            // }
-
-            // setIdFilms(responseDetails)
             setFilms(ghibli_films)
         } catch (error) {
             console.log(error)
@@ -60,8 +42,6 @@ function FilmsProvider(props) {
             searchValue,
             setSearchValue,
             searchFilms,
-            // idFilms,
-            // filmsPeople
         }}>
             {props.children}
         </FilmsContext.Provider>
