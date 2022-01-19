@@ -1,7 +1,10 @@
 :root {
   /* colors */
   --color-titles:#5a5858;
-  --transparencia:#4c4b4b1c;
+  --rosa: #e78193;
+  --bag-search: #ffffff17;
+  --bag-itemSearch:#9f969633;
+  --bag-item-secondary:#fce8f0;
 
   /* fonts */
   --font-size-sm: 12px;
@@ -13,6 +16,7 @@
   --regular: 400;
   --medium: 500;
   --m-bold: 600;
+  --bold: 700;
 }
 
 body {
@@ -23,7 +27,7 @@ body {
   background-repeat: no-repeat;
 }
 .container {
-  margin: 0 12% 5% 12%;
+  margin: 0 12% 0 12%;
 }
 .banner {
   display: grid;
@@ -33,15 +37,15 @@ body {
   margin: 20px 0px;
 }
 .ghibli_logo {
-  width: 200px;
+  width: 340px;
 }
 footer{
   display: grid;
-  justify-items: center;
-  margin: 12px 0px;
   font-size: var(--font-size-lg);
   font-weight: var(--m-bold);
+  justify-items: center;
   letter-spacing: 1px;
+  margin: 12px 0px;
 
 }
 .socialMedia{
@@ -50,6 +54,6 @@ footer{
 .link-social {
   color: black;
   cursor: pointer;
-  text-decoration: none;
   margin-right: 21px;
+  text-decoration: none;
 }

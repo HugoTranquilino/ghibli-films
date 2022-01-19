@@ -1,14 +1,14 @@
 .search {
   border: 1px solid;
   border-radius: 8px;
+  background-color: var(--bag-search);
   color: white;
   font-size: var(--font-size-lg);
-  height: 18px;
-  margin-bottom: 12px;
-  padding: 5px 8px;
+  height: 24px;
+  margin-bottom: 8px;
   outline: none;
+  padding: 6px 10px;
   width: 300px;
-  background-color: #ffffff17;
 }
 ::placeholder{
   color: white;
@@ -18,20 +18,20 @@
   display: grid;
 }
 .searchFilm a{
-  text-decoration: none;
-  background-color: #9f969633;
-  padding: 0 0px 0px 9px;
-  margin: 2px 0 0 0;
+  background-color: var(--bag-itemSearch);
   border-radius: 12px;
+  margin: 2px 0 0 0;
+  padding: 0 0px 0px 9px;
+  text-decoration: none;
 }
 .searchFilm a:hover {
-  background-color: #fce8f0;
+  background-color: var(--bag-item-secondary);
 }
 .searchItem {
   color: white;
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-lg);
   font-weight: 400;
 }
 .searchItem:hover{
-  color: #f787b0;
+  color: var(--rosa);
 }

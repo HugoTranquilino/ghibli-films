@@ -9,14 +9,14 @@
 }
 .films__card {
     display: grid;
-    background-color: var(--transparencia);
+    background-color: white;
     border-radius: 12px;
     justify-items: center;
     margin: 2%;
 }
 .films__card:hover {
     cursor: pointer;
-    box-shadow: 1px 2px 11px 12px #dccdcd ;
+    box-shadow: 1px 2px 11px 12px var(--rosa) ;
     transition: box-shadow, 1s;
 }
 .films__card-image {
@@ -28,14 +28,16 @@
     margin: 0 14px 10px 14px;
 }
 .card__body-title {
-    font-size: var(--font-size-lg);
-    font-weight: var(--m-bold);
     color: var(--color-titles);
-}
-.not-found {
-    text-align: center;
     font-size: var(--font-size-bg);
     font-weight: var(--m-bold);
+    height: 50px;
+    text-align: center;
+}
+.not-found {
+    font-size: var(--font-size-bg);
+    font-weight: var(--m-bold);
+    text-align: center;
 }
 .card__body_description-date{
     text-align: end;
