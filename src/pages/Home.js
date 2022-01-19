@@ -1,14 +1,16 @@
 import React from "react";
 import { Search } from "../components/Search";
-import logo from '../image/Studio_Ghibli.png';
+import logo from '../image/logoStudioGhibli.svg';
 import { Films } from "../components/Films";
 import { Cards } from '../components/Cards' 
 import { FilmsContext } from "../components/FilmsContext";
 import { Footer } from "../components/Footer"
+import { Link } from "react-router-dom";
 
 function Home() {
     const {
-        searchFilms
+        searchFilms,
+        responseFilms
     } = React.useContext(FilmsContext);
 
     return(
@@ -16,13 +18,21 @@ function Home() {
             <div className="container">
                 <header className="banner">
                     <img className="ghibli_logo" src={logo} alt="Home films" />
-                    <Search />
+                    <div className="searchFilm">
+                        <Search />
+                            {!searchFilms.length && ''}
+                            {searchFilms && searchFilms.map((searchFilms, i)=>
+                                    <Link to={`/details/${searchFilms.id}`} key={i} className="searchItem">
+                                        {searchFilms.title}
+                                    </Link>
+                            )}
+                    </div>
                 </header>
                 <Films>
-                    {!searchFilms.length && <p className="not-found">No se encontro el film buscado</p> }
+                    {!responseFilms.length && <p className="not-found">No fue posible cargar los films</p> }
 
                     <div className="films__container">
-                        {searchFilms.map(film => (
+                        {responseFilms.map(film => (
                             <Cards
                                 key = {film.id} 
                                 image = {film.image}
