@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 
 function Footer() {
     return(
@@ -11,12 +9,8 @@ function Footer() {
                 </p>
             </section>
             <section className="socialMedia">
-                <div>
-                    <a href="https://twitter.com/H_TranquiS" className="link-social">Saludame en Twitter</a>
-                </div>
-                <div>
-                    <a href="https://github.com/HugoTranquilino/ghibli-films" className="link-social">Repositorio del proyecto</a>
-                </div>
+                    <a href="https://twitter.com/H_TranquiS" target="_blank" className="link-social">Saludame en Twitter</a>
+                    <a href="https://github.com/HugoTranquilino/ghibli-films" target="_blank" className="link-social">Repositorio del proyecto</a>
             </section>
         </footer>
     );    

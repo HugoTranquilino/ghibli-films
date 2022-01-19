@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
 const FilmsContext = React.createContext();
 
@@ -9,13 +8,9 @@ function FilmsProvider(props) {
     const [searchValue, setSearchValue] = React.useState('');
     const [films, setFilms] = React.useState([]);
 
-    const [idFilm, setIdFilm] = React.useState('')
-
     let responseFilms = films;
     let searchFilms,matchFilms = [];
 
-    let details = [];
-    
     if (!searchValue.length >= 1) {
         searchFilms = matchFilms;
     } else {

@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/css/ghibliDetails.css"
 import { useParams } from "react-router-dom";
+import "../styles/ghibliDetails.css"
 
 function GhibliDetails(props) {
     const {id} = useParams();
@@ -28,6 +28,10 @@ function GhibliDetails(props) {
             <section className="target">
                 <img className="target--image" src={filmsDetail.image}/>
                 <h1 className="details__banner-title">{filmsDetail.title}</h1>
+                <section className="container__info-film">
+                    <h3 className="details_director">{filmsDetail.director}</h3>
+                    <h3 className="details_producer">{filmsDetail.producer}</h3>
+                </section>
             </section>
 
             <section className="section-info">
@@ -41,15 +45,6 @@ function GhibliDetails(props) {
                     <section className="container__info-description">
                         <p className="description">{filmsDetail.description}</p>
                     </section>
-                    <section className="container__info-film">
-                        <h3 className="details_director">{filmsDetail.director}</h3>
-                        <h3 className="details_producer">{filmsDetail.producer}</h3>
-                    </section>
-                </section>
-
-                <section className="container__people">
-                    {/* <p className="people_name">{filmsPeople.name}</p> */}
-
                 </section>
             </section>
         </section>

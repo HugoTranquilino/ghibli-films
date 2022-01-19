@@ -23,7 +23,7 @@
 }
 .details__banner-title {
     font-size: var(--font-size-b);
-    font-weight: var(--regular);
+    font-weight: var(--m-bold);
     margin: 0;
     text-align: center;
 }
