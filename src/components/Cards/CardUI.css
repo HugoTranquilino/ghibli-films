@@ -4,9 +4,12 @@
     gap: 10px;
     justify-content: center;
 }
+.films__container a{
+    text-decoration: none;
+}
 .films__card {
     display: grid;
-    background: #4c4b4b0d;/* position: relative; */
+    background-color: var(--transparencia);
     border-radius: 12px;
     justify-items: center;
     margin: 2%;
@@ -26,22 +29,14 @@
 }
 .card__body-title {
     font-size: var(--font-size-lg);
-    font-weight: 600;
+    font-weight: var(--m-bold);
+    color: var(--color-titles);
 }
 .not-found {
     text-align: center;
     font-size: var(--font-size-bg);
-    font-weight: 600;
+    font-weight: var(--m-bold);
 }
 .card__body_description-date{
     text-align: end;
 }
-
-/* @media screen and (max-width:600px) {
-    .films__container{
-        grid-template-columns: 1fr;
-    }
-}
-@media screen and (max-width: 852px) {
-    
-} */

@@ -9,17 +9,36 @@ function FilmsProvider(props) {
     const [searchValue, setSearchValue] = React.useState('');
     const [films, setFilms] = React.useState([]);
 
-    let searchFilms = [];
+    let responseFilms = films;
+    // console.log("films ", responseFilms)
 
+    let searchFilms,matchFilms = [];
+
+    // let matchFilms = [];
+    
     if (!searchValue.length >= 1) {
-        searchFilms = films;
+        searchFilms = matchFilms;
     } else {
         searchFilms = films.filter(film => {
             const NameFilm = film.title.toLowerCase();
             const SearchFilm = searchValue.toLowerCase();
             return NameFilm.includes(SearchFilm);
         })
+
+        console.log("search ",searchFilms)
     }
+
+    // if (!searchValue.length >= 1) {
+    //     searchFilms = films;
+    // } else {
+    //     searchFilms = films.filter(film => {
+    //         const NameFilm = film.title.toLowerCase();
+    //         const SearchFilm = searchValue.toLowerCase();
+    //         return NameFilm.includes(SearchFilm);
+    //     })
+
+    //     console.log("search ",searchFilms)
+    // }
 
     const ghibli_films = async (ghibli_api) => {
         try {
@@ -42,6 +61,7 @@ function FilmsProvider(props) {
             searchValue,
             setSearchValue,
             searchFilms,
+            responseFilms,
         }}>
             {props.children}
         </FilmsContext.Provider>
