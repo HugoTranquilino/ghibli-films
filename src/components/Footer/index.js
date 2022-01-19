@@ -11,10 +11,12 @@ function Footer() {
                 </p>
             </section>
             <section className="socialMedia">
-                <a className="link-social" href="#">twitter</a>
-                <a className="link-social" href="#">ghithub</a>
-                {/* <Link to="">Twitter</Link>
-                <Link to="">Ghithub</Link> */}
+                <div>
+                    <a href="https://twitter.com/H_TranquiS" className="link-social">Saludame en Twitter</a>
+                </div>
+                <div>
+                    <a href="https://github.com/HugoTranquilino/ghibli-films" className="link-social">Repositorio del proyecto</a>
+                </div>
             </section>
         </footer>
     );    
