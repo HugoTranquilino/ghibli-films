@@ -1,12 +1,11 @@
 import React from "react";
-import { FilmsContext } from "../FilmsContext";
-import './Search.css';
+import { FilmsContext } from "./FilmsContext";
+import '../styles/search.css';
 
 function Search() {
     const {searchValue,setSearchValue} = React.useContext(FilmsContext);
     
     const onSearchValue = (event) => {
-        console.log(event.target.value);
         setSearchValue(event.target.value);
     };
 
