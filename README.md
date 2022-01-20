@@ -1,3 +1,32 @@
+# Ghibli films
+
+Studio Ghibli (スタジオジブリ Sutajio Jiburi?) es un estudio japonés de animación, considerado por la crítica especializada y muchos cinéfilos como uno de los mejores estudios de animación del mundo en la actualidad.1
+
+El estudio es mejor conocido por sus largometrajes animados y también ha producido varios cortometrajes, comerciales de televisión y una película para televisión. Fue fundado el 15 de junio de 1985 por los directores Hayao Miyazaki e Isao Takahata y el productor Toshio Suzuki , después del éxito de la película de anime de Topcraft Nausicaä del Valle del Viento (1984). Studio Ghibli también ha colaborado con estudios de videojuegos en el desarrollo visual de varios videojuegos.
+
+## `Un poco sobre el proyecto`
+
+La implementación del Hook [useContext] y [useState] de React fue sin duda la parte que mas me agrado del proyecto puesto que me permite acceder a la respuesta del API desde los demás componentes. Y considero que me ayudo a tener una mejor organización de mi código.
+Al inicio me costo un poco de trabajo entender cómo funcionaba y como implementar estos Hooks puesto que no tengo mucha experiencia usando React, pero la documentación oficial me ayudó mucho.
+
+## `La arquitectura`
+
+Inicialmente me costó un poco de trabajo decidir la tecnología sobre la que realizaría el proyecto, dado que me entusiasme con esta decisión, las ideas principales eran realizar el proyecto en php, usando Laravel o CodeIgniter; pero al ser estos lenguajes más orientados a la parte del Backend.
+Decidí realizar el proyecto en React porque me pareció ser una buena manera de demostrarme a mí mismo los conocimientos que tengo respecto a la librería/framework, además de que el proyecto inicial planteado en el requerimiento no era muy complejo. Mas sin embargo no habría problema si el proyecto en algún momento escalara. 
+
+## `Trade-offs`
+
+Considero que la implementación del proyecto fue sencilla y logre abordar los requerimientos detallados en la solicitud, sin embargo, si tuviera mas tiempo para mejorarla me gustaría darle un poco mas de detalle a la interfaz de usuario, trabajar un poco más en el manejo de errores y presentar más consultas a la API, como por ejemplo el listado de personajes de cada película y re factorizar varias partes del código.
+
+## `Link`
+
+[https://github.com/HugoTranquilino/ghibli-films/blob/master/src/components/FilmsContext.js](https://github.com/HugoTranquilino/ghibli-films/blob/master/src/components/FilmsContext.js)
+
+## `Link a la aplicación`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
