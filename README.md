@@ -31,7 +31,7 @@ Considero que la implementación del proyecto fue sencilla y logre abordar los r
 
 ## `Link a la aplicación`
 
-
+[https://hugotranquilino.github.io/](https://hugotranquilino.github.io/)
 
 
 # Getting Started with Create React App
