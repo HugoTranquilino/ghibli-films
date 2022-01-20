@@ -29,7 +29,6 @@ function FilmsProvider(props) {
             setFilms(ghibli_films)
         } catch (error) {
             console.log(error)
-            console.log('fallo la carga')
         }
     }
 

@@ -7,11 +7,13 @@ El estudio es mejor conocido por sus largometrajes animados y también ha produc
 ## `Un poco sobre el proyecto`
 
 La implementación del Hook [useContext] y [useState] de React fue sin duda la parte que mas me agrado del proyecto puesto que me permite acceder a la respuesta del API desde los demás componentes. Y considero que me ayudo a tener una mejor organización de mi código.
+
 Al inicio me costo un poco de trabajo entender cómo funcionaba y como implementar estos Hooks puesto que no tengo mucha experiencia usando React, pero la documentación oficial me ayudó mucho.
 
 ## `La arquitectura`
 
 Inicialmente me costó un poco de trabajo decidir la tecnología sobre la que realizaría el proyecto, dado que me entusiasme con esta decisión, las ideas principales eran realizar el proyecto en php, usando Laravel o CodeIgniter; pero al ser estos lenguajes más orientados a la parte del Backend.
+
 Decidí realizar el proyecto en React porque me pareció ser una buena manera de demostrarme a mí mismo los conocimientos que tengo respecto a la librería/framework, además de que el proyecto inicial planteado en el requerimiento no era muy complejo. Mas sin embargo no habría problema si el proyecto en algún momento escalara. 
 
 ## `Trade-offs`
