@@ -7,8 +7,8 @@
 }
 .target--image {
     border-radius: 12px;
-    height: 287px;
-    width: 192px;
+    height: 315px;
+    width: 215px;
 }
 
 .section-info{
@@ -49,12 +49,9 @@
     content: "Productor: ";
 }
 .details-age {
-    font-size: var(--font-size-b);
-    font-weight: var(--regular);
-    margin: 2px;
-}
-.details-age::before {
-    content: "Año de lanzamiento: ";
+    font-size: var(--font-size-lg);
+    font-weight: var(--medium);
+    margin: 0;
 }
 .details_ {
     font-size: 14px;

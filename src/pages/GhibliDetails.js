@@ -31,15 +31,14 @@ function GhibliDetails(props) {
                 <section className="container__info-film">
                     <h3 className="details_director">{filmsDetail.director}</h3>
                     <h3 className="details_producer">{filmsDetail.producer}</h3>
+                    <h2 className="details-age">{filmsDetail.release_date} / {filmsDetail.running_time} min</h2>
                 </section>
             </section>
 
             <section className="section-info">
-
                 <section className="details__banner">
                     <img className="details__banner-img" src={filmsDetail.movie_banner}/>
                 </section>
-                <h2 className="details-age">{filmsDetail.release_date}</h2>
 
                 <section className="container__info">
                     <section className="container__info-description">
