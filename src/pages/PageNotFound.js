@@ -13,7 +13,7 @@ function PageNotFound() {
                     <h1 className="section__notFound-Oops">Ooops...</h1>
                     <p className="section__notFound-subtitle">No se ha encontrado página solicitada</p>
                 </section>
-                <Link to="/" className="btn-home">Regresar al Inicio</Link>
+                <Link to="/ghibli-films/" className="btn-home">Regresar al Inicio</Link>
             </section>
         </div>
     );

@@ -10,7 +10,7 @@ function App() {
         <BrowserRouter>
             <FilmsProvider>
                 <Routes>
-                    <Route path="/" exact element={< Home />}/> 
+                    <Route path="/ghibli-films/" exact element={< Home />}/> 
                     <Route path="/details/:id" exact element={<GhibliDetails />}/> 
                     <Route path="/*" element={<PageNotFound />}/> 
                 </Routes>
