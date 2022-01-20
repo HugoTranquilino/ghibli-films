@@ -8,9 +8,9 @@ El estudio es mejor conocido por sus largometrajes animados y también ha produc
 
 El proyecto se encuentra desarrollado en React, bajo el ambiente de trabajo generado por `Create React App`. La aplicación lista y permite buscar películas de estudio Ghibli; realiza una consulta al [API](https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API) de estudio Ghibli para proporcionar la información de cada una de las películas.
 
-<img src="./src/image/home.png" width="150">
-<img src="./src/image/details.png" width="150">
-<img src="./src/image/pageNotFound.png" width="150">
+<img src="./src/image/home.png" width="200">
+<img src="./src/image/details.png" width="200">
+<img src="./src/image/pageNotFound.png" width="200">
 
 ## `Mis retos`
 
