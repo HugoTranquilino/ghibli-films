@@ -4,16 +4,16 @@ Studio Ghibli (スタジオジブリ Sutajio Jiburi?) es un estudio japonés de 
 
 El estudio es mejor conocido por sus largometrajes animados y también ha producido varios cortometrajes, comerciales de televisión y una película para televisión. Fue fundado el 15 de junio de 1985 por los directores Hayao Miyazaki e Isao Takahata y el productor Toshio Suzuki , después del éxito de la película de anime de Topcraft Nausicaä del Valle del Viento (1984). Studio Ghibli también ha colaborado con estudios de videojuegos en el desarrollo visual de varios videojuegos.
 
-## `Un poco sobre el proyecto`
+## `Acerca del proyecto`
+
+El proyecto se encuentra desarrollado en React, bajo el ambiente de trabajo generado por `Create React App`. La aplicación lista y permite buscar películas de estudio Ghibli; realiza una consulta al [API](https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API) de estudio Ghibli para proporcionar la información de cada una de las películas.
+
+
+## `Mis retos`
 
 La implementación del Hook [useContext] y [useState] de React fue sin duda la parte que mas me agrado del proyecto puesto que me permite acceder a la respuesta del API desde los demás componentes. Y considero que me ayudo a tener una mejor organización de mi código.
 
 Al inicio me costo un poco de trabajo entender cómo funcionaba y como implementar estos Hooks puesto que no tengo mucha experiencia usando React, pero la documentación oficial me ayudó mucho.
-
-## Requerimiento inicial del proyecto 
-
-Crea una aplicación que liste y permita buscar películas de estudio Ghibli, el buscador debe soportar autocompletado.
-[API](https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API)
 
 ## `La arquitectura`
 
@@ -25,13 +25,13 @@ Decidí realizar el proyecto en React porque me pareció ser una buena manera de
 
 Considero que la implementación del proyecto fue sencilla y logre abordar los requerimientos detallados en la solicitud, sin embargo, si tuviera mas tiempo para mejorarla me gustaría darle un poco mas de detalle a la interfaz de usuario, trabajar un poco más en el manejo de errores y presentar más consultas a la API, como por ejemplo el listado de personajes de cada película y re factorizar varias partes del código.
 
-## `Link`
+## `Vista al context de mi aplicación`
 
 [https://github.com/HugoTranquilino/ghibli-films/blob/master/src/components/FilmsContext.js](https://github.com/HugoTranquilino/ghibli-films/blob/master/src/components/FilmsContext.js)
 
 ## `Link a la aplicación`
 
-[https://hugotranquilino.github.io/](https://hugotranquilino.github.io/)
+[https://hugotranquilino.github.io/ghibli-films/](https://hugotranquilino.github.io/ghibli-films/)
 
 
 # Getting Started with Create React App
