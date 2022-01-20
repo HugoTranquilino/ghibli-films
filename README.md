@@ -10,6 +10,11 @@ La implementación del Hook [useContext] y [useState] de React fue sin duda la p
 
 Al inicio me costo un poco de trabajo entender cómo funcionaba y como implementar estos Hooks puesto que no tengo mucha experiencia usando React, pero la documentación oficial me ayudó mucho.
 
+## Requerimiento inicial del proyecto 
+
+Crea una aplicación que liste y permita buscar películas de estudio Ghibli, el buscador debe soportar autocompletado.
+[API](https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API)
+
 ## `La arquitectura`
 
 Inicialmente me costó un poco de trabajo decidir la tecnología sobre la que realizaría el proyecto, dado que me entusiasme con esta decisión, las ideas principales eran realizar el proyecto en php, usando Laravel o CodeIgniter; pero al ser estos lenguajes más orientados a la parte del Backend.
